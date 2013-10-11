@@ -15,19 +15,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="description" content="I created FreshWisdom as a resource for like-minded people in their twenties to use advice, find mentors, and apply strategies that are actually helpful to create life direction. Join me in my personal mission to live boldly, feel confident, and create a life without limits." />
+<meta name="description" content="DESCRIPTION" />
 <meta name="keywords" content=""/>
 
 <meta property="og:type" content="website"/>
 <meta property="og:image" content="<?php bloginfo( 'template_directory' ); ?>/images/facebook.png"/>
-<meta property="og:site_name" content="freshwisdomonline.com"/>
+<meta property="og:site_name" content="SITENAME.com"/>
 <meta property="fb:admins" content="24404043"/>
 <?php if (is_front_page()) : ?>
-    <meta property="og:title" content="Fresh Wisdom"/>
-    <meta property="og:url" content="http://www.freshwisdomonline.com"/>
-    <meta property="og:description" content="I created FreshWisdom as a resource for like-minded people in their twenties to use advice, find mentors, and apply strategies that are actually helpful to create life direction. Join me in my personal mission to live boldly, feel confident, and create a life without limits."/>
+    <meta property="og:title" content="SITE NAME"/>
+    <meta property="og:url" content="http://www.SITENAME.com"/>
+    <meta property="og:description" content="OG DESCRIPTION"/>
 <?php elseif (is_single() || is_page()) : ?>
-	<meta property="og:title" content="Fresh Wisdom | <?php the_title(); ?>"/>
+	<meta property="og:title" content="SITE NAME | <?php the_title(); ?>"/>
     <meta property="og:url" content="<?php the_permalink(); ?>"/>
     <meta property="og:description" content="<?php the_excerpt();?>"/>
 
