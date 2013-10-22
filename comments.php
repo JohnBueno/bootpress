@@ -13,7 +13,8 @@
  */
 ?>
 
-			<div id="comments">
+			<div id="comments container">
+			    
 <?php if ( post_password_required() ) : ?>
 				<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'twentyten' ); ?></p>
 			</div><!-- #comments -->

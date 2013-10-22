@@ -5,8 +5,9 @@ Author: Bueno
 Version: 1.4
 */
 body{}
-body{margin-top: 40px;}
+body{margin-top: 65px;}
 body.logged-in .navbar-fixed-top{top: 28px;}
+img{max-width: 100%; height: auto}
 
 ul {
   margin-left: 0;
