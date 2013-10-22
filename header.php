@@ -60,12 +60,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/bootstrap/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/jquery.fancybox.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery.cycle.all.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -87,11 +84,28 @@
 
 <body <?php body_class(); ?>>
 
-<div class="container" id="header">
-	<div class="row">
-		<div class="span12"><?php wp_nav_menu(array('menu' => 'Main' )); ?></div>
-	</div>
-		
-</div><!-- #header -->
+
+<header class="navbar navbar-default navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../" class="navbar-brand">Bootstrap</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <?php wp_nav_menu(array('menu' => 'Main', 'menu_class'=>'nav navbar-nav', 'container' => false )); ?>
+      <!--
+<ul class="nav navbar-nav">
+        
+      </ul>
+-->
+    </nav>
+  </div>
+</header>
+
 
 <div class="container">

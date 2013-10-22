@@ -20,7 +20,8 @@ get_header(); ?>
 				<h1><? the_title(); ?></h1>
 								
 				<? the_content(); ?>
-		
+                
+                <?php comments_template(); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- #container -->
 		<?php get_sidebar(); ?>
