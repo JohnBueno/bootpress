@@ -3,7 +3,7 @@
 <div id="footer" role="contentinfo">
 	<div class="container">
 		<div class="row">
-			<div class="span12">Footer</div>
+			<div class="col-md-12">Footer</div>
 		
 		</div>
 	</div>

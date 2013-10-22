@@ -58,7 +58,6 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 

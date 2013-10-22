@@ -15,7 +15,7 @@
 get_header(); ?>
 
 	<div class="row">
-		<div class="span9">
+		<div class="col-md-9">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<h1><? the_title(); ?></h1>
 								

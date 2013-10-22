@@ -4,8 +4,10 @@ Description: Blank Bootstrap Theme for wordpress
 Author: Bueno
 Version: 1.4
 */
+body{}
+body{margin-top: 40px;}
+body.logged-in .navbar-fixed-top{top: 28px;}
 
-#wpadminbar{display: none;}
 ul {
   margin-left: 0;
 }

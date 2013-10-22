@@ -8,7 +8,7 @@
  */
 ?>
 
-<div id="primary" class="span3" role="complementary">
+<div id="primary" class="col-md-3" role="complementary">
 	<ul class="xoxo">
 
 <?php
